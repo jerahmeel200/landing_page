@@ -42,7 +42,7 @@ export default function Navbar() {
         </Link>
 
         <ul
-          className={`md:flex md:items-center gap-5 lg:gap-9 -z-[-1] md:z-auto md:static absolute w-screen left-0 md:w-auto py-3 md:py-0 pl-7 md:pl-0 top-[-400px] ${
+          className={`lg:flex md:hidden md:items-center gap-5 lg:gap-9 -z-[-1] md:z-auto md:static absolute w-screen left-0 md:w-auto py-3 md:py-0 pl-7 md:pl-0 top-[-400px] ${
             isShow ? "top-[62px] -z-50 bg-white" : ""
           } transition-all ease-in duration-500`}
         >
